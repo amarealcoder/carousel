@@ -15,6 +15,9 @@
   align-items: center;
   justify-content: space-evenly;
 }
+.carousel_container:hover button{
+  display: block;
+}
 .carousel {
   width: 400px;
   height: 400px;
@@ -31,4 +34,6 @@ button{
   font-size: 3.5rem;
   border: none;
   background: none;
+  display: none;
+  cursor: pointer;
 }
