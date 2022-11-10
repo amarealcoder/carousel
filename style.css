@@ -16,7 +16,7 @@
   justify-content: space-evenly;
 }
 .carousel_container:hover button{
-  display: block;
+  opacity: 1;
 }
 .carousel {
   width: 400px;
@@ -30,10 +30,10 @@ img {
     object-position: center;
 }
 button{
-  color: green;
-  font-size: 3.5rem;
+  color: white;
+  font-size: 4rem;
   border: none;
   background: none;
-  display: none;
+  opacity: 0;
   cursor: pointer;
 }
